@@ -6,8 +6,21 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'ground/0',
+			pagination: false,
+			tableOfContents: { minHeadingLevel: 1 },
+			defaultLocale: 'en',
+			locales: {
+				// English docs in `src/content/docs/en/`
+				en: {
+				  label: 'English',
+				},
+				de: {
+				  label: 'Deutsch',
+				  lang: 'de',
+				},
+			  },
 			social: {
-				//github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/si9int/wiki',
 			},
 			sidebar: [
 				{

@@ -3,7 +3,7 @@ title: Upgrading Shells to Interactive TTYs
 description: A reference page in my new Starlight docs site.
 ---
 
-#### TL;DR
+### TL;TR
 
 ```
 python3 -c 'import pty; pty.spawn("/bin/bash")'
@@ -17,7 +17,7 @@ stty rows [N] columns [M]
 ```
 `N` and `M` are defined in the output of `stty -a` (namely columns and rows).
 
-#### References
+### References
 
 - https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/
 - https://jonathanh.co.uk/blog/upgrading-reverse-shells/
