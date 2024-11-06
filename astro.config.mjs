@@ -35,6 +35,10 @@ export default defineConfig({
 					label: 'Linux',
 					autogenerate: { directory: 'linux' },
 				},
+				{
+					label: 'Application',
+					autogenerate: { directory: 'app' },
+				},
 			],
 		}),
 	],
