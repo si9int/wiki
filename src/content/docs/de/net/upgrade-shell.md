@@ -1,5 +1,5 @@
 ---
-title: Upgrading Shells to Interactive TTYs
+title: Upgrade zur Interaktiven TTY Shell
 description: A reference page in my new Starlight docs site.
 ---
 
@@ -15,7 +15,7 @@ export SHELL=bash
 export TERM=xterm-256color
 stty rows [N] columns [M]
 ```
-`N` and `M` are defined in the output of `stty -a` (namely columns and rows).
+`N` und `M` erhält man über die Ausgabe von `stty -a` (Zeilen und Spalten respektive).
 
 ### References
 

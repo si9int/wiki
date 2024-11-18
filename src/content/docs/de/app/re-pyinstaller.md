@@ -10,7 +10,7 @@ $ python3 pyinstxtractor.py [file]
 $ uncompyle6 [file.pyc|file.pyo]
 ```
 
-### Identification
+### Indikatoren
 
 ```
 $ strings [file]
